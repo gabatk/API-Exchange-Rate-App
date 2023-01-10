@@ -45,4 +45,60 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-left,
+.section-right {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.section-left__amount,
+.section-right__amount {
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 6rem;
+}
+.section-left__amount, .section-left select,
+.section-right__amount,
+.section-right select {
+  text-align: center;
+  color: #fff;
+  background: none;
+  border: none;
+}
+.section-left__amount:focus, .section-left select:focus,
+.section-right__amount:focus,
+.section-right select:focus {
+  outline: none;
+  color: #4b75d6;
+}
+.section-left select,
+.section-right select {
+  padding: 10px 20px;
+  font-size: 3.6rem;
+  cursor: pointer;
+}
+.section-left select option,
+.section-right select option {
+  color: #333;
+}
+
+.swap {
+  height: 40px;
+  width: 80px;
+  padding: 10px;
+  font-size: 2.4rem;
+  background-image: linear-gradient(136deg, #30b191, #8ed981);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.swap:focus {
+  outline: none;
+  background-image: linear-gradient(136deg, #20846b, #70bb63);
+}
+
+.rate-info {
+  margin-top: 30px;
 }/*# sourceMappingURL=main.css.map */
