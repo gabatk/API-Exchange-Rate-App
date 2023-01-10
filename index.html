@@ -15,13 +15,16 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<h1>Exchange Rate App</h1>
-			<p>Check the current exchange rates!</p>
+			<h1 class="app__title">Exchange Rate App</h1>
+			<p class="app__info">Check the current exchange rates!</p>
 
-			<div class="app-body">
+			<div class="app__body">
 				<div class="section-left">
-					<input type="number" class="section-left__amount-one" value="1" />
-					<select id="section-left__currency-one">
+					<input
+						type="number"
+						class="section-left__amount amount-one"
+						value="1" />
+					<select id="section-left__currency currency-one">
 						<option value="PLN" selected>PLN</option>
 						<option value="USD">USD</option>
 						<option value="GBP">GBP</option>
@@ -31,8 +34,11 @@
 				</div>
 				<button class="swap"><i class="fas fa-retweet"></i></button>
 				<div class="section-right">
-					<input type="number" class="section-right__amount-two" />
-					<select id="section-right__currency-two">
+					<input
+						type="number"
+						class="section-right__amount amount-two"
+						disabled />
+					<select id="section-right__currency currency-two">
 						<option value="PLN">PLN</option>
 						<option value="USD" selected>USD</option>
 						<option value="GBP">GBP</option>
