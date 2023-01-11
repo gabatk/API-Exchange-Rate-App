@@ -73,14 +73,14 @@ body {
   outline: none;
   color: #4b75d6;
 }
-.section-left select,
-.section-right select {
+.section-left__currency,
+.section-right__currency {
   padding: 10px 20px;
   font-size: 3.6rem;
   cursor: pointer;
 }
-.section-left select option,
-.section-right select option {
+.section-left__currency option,
+.section-right__currency option {
   color: #333;
 }
 
